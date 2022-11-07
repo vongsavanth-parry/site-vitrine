@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRYDEV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation principale -->
+  <nav class="navbar fixed-top nav-custom navbar-expand-lg p-4">
+    <div class="container">
+      <img src="/assets/logo.png" class="me-5" alt="logo prydev">
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span><i class="bi bi-list" style="font-size: 2rem;"></i></span>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Fonctionnalités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Témoignages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Tarifications</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#">S'identifier</a>
+          </li>
+        </ul>
+
+        <button class="btn btn-primary rounded-pill">Commencer</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main class="pb-5">
+    <div class="container text-center" style="padding-top: 192px; padding-bottom: 64px;">
+      <h1 class="display-3 fw-bold mb-4">
+        La gestion des EPI <span class="text-primary">simplifiée</span><br>
+        pour les petites entreprises.
+      </h1>
+
+      <p class="fs-4">
+        La plupart des logiciels de gestion d'EPI sont précis, mais difficiles à utiliser.<br>
+        Nous faisons le compromis inverse et espérons que vous serez satisfait.
+      </p>
+
+      <div class="my-5">
+        <button class="btn btn-dark me-2 mb-2 rounded-pill">
+          Obtenez 6 mois gratuits
+        </button>
+        <button class="btn btn-outline-primary me-2 mb-2 rounded-pill">
+          <i class="bi bi-play-circle"></i>
+          Regarder la vidéo
+        </button>
+      </div>
+
+      <div style="margin-top: 16rem">
+        <p class="fs-6">
+          Reconnu par ces six entreprises jusqu'à présent
+        </p>
+
+        <!-- Logo des entreprises partenaires -->
+        <div class="row row-cols-auto p-3" style="justify-content: center">
+          <div class="col me-4">
+            <img src="/assets/proxima.png" alt="proxima logo">
+          </div>
+          <div class="col me-4">
+            <img src="/assets/fluxify.png" alt="fluxify logo">
+          </div>
+          <div class="col me-4">
+            <img src="/assets/lisee.png" alt="lisee logo">
+          </div>
+          <div class="col me-4">
+            <img src="/assets/aridroo.png" alt="aridroo logo">
+          </div>
+          <div class="col me-4">
+            <img src="/assets/wistful.png" alt="wistful logo">
+          </div>
+          <div class="col me-4">
+            <img src="/assets/jekyll.png" alt="jekyll logo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bannière de souscription -->
+    <section id="get-started" aria-label="Commencer" class="text-white bg-primary">
+      <div class="container py-5 my-5">
+        <div class="text-center">
+          <h2>Commencez dès maintenant !</h2>
+
+          <p class="mt-4" style="font-size: 18px">
+            Il est temps de prendre le contrôle de vos EPI.<br>
+            Souscrivez à une offre dès maintenant pour pouvoir profiter de 6 mois gratuits.
+          </p>
+
+          <button class="btn btn-light me-2 mb-2 mt-4 rounded-pill">
+            Obtenez 6 mois gratuits
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section id="features" aria-label="Fonctionnalités" class="mb-5" style="padding-top: 128px; padding-bottom: 64px">
+      <div class="container p-5">
+        <div class="text-center">
+          <h2 style="font-size: 40px;">Simplifiez les tâches<br>professionnelles quotidiennes.</h2>
+
+          <p class="mt-4" style="font-size: 18px">
+            Tout ce dont vous avez besoin pour gérer vos équipements de
+            protection individuelle
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Suivez vos stocks</h5>
+
+                <ul>
+                  <li>L'état des stocks en temps réel</li>
+                  <li>Des seuils limites à ne pas dépasser</li>
+                  <li>Paramétrage des alertes pour ne rien manquer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Organisez votre entreprise</h5>
+
+                <ul>
+                  <li>Un historique de vos mouvements</li>
+                  <li>Centralisation en une seule interface</li>
+                  <li>Répartition de vos sites de stocks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Vos salariés en sécurité</h5>
+
+                <p class="card-text">
+                  Grâce à la dotation, vous conservez l'historique de ce qui a été fourni.<br>
+                  Vous êtes sûr que tout le monde travaille en sécurité !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Rapports</h5>
+
+                <p class="card-text">
+                  Exportez facilement vos données dans une feuille de calcul Excel<br>
+                  où vous allez pouvoir en faire ce que vous voulez.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section id="testimonials" aria-label="Témoignages" class="mb-5" style="padding-top: 128px; padding-bottom: 64px">
+      <div class="container">
+        <div class="text-center">
+          <h2 style="font-size: 40px;">Reconnu par les entreprises<br>
+            du monde entier.
+          </h2>
+
+          <p class="mt-4" style="font-size: 18px">
+            Notre logiciel est si simple et facile d'utilisation, voyez-le par vous-même !
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">
+                  "Le logiciel est si facile à utiliser que je ne peux m'empêcher d'en parler à tous mes amis."
+                </p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    John Doe
+
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=996&t=st=1667482678~exp=1667483278~hmac=da6b55c19445707d48d7198bb65bff7d3a1677ea361a07ecf91bba5a534e8dff"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">Fondateur de Wistful</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">
+                  "La meilleure partie du logiciel est la dotation des EPI,
+                  dorénavant je n'ai plus à me demander si mes collaborateurs
+                  sont équipés grâce aux suivis des dotations."
+                </p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    Bryan Rodrigues
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/bel-homme-souriant-confiant-mains-croisees-poitrine_176420-18743.jpg?w=1380&t=st=1667484763~exp=1667485363~hmac=588f6d2d80dc7c5beb4b131dcc19ee59cfb0fa27f7e2dd290ef7a27f9f6d2211"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">PDG de Lisee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">
+                  "Avant je devais enregistrer tous mes EPI dans des fichiers
+                  Excel, maintenant je n'ai plus à le faire, merci PRYDEV !"
+                </p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    Jane Ferreira
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/brunette-blogueuse-posant-pour-photo_23-2148192223.jpg?w=1380&t=st=1667484284~exp=1667484884~hmac=f0689d1bcbc673fc0e3ff73d7f980fff35eb8499781572e57e61b113b5c67d6d"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">Directrice chez Fluxify</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">
+                  "C'est la 5ème fois que j'essaye d'avoir au téléphone votre
+                  équipe d'assistance, je suis littéralement en train de péter
+                  un plomb."
+                </p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    Léa Luret
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/femme-moderne-prenant-selfie_23-2147893976.jpg?w=1380&t=st=1667485701~exp=1667486301~hmac=abc06e59a1cf19156c5a69420754fd82294ac0d67310c205624a8558a8986fbc"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">Fondatrice de Proxima</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">"Mon entreprise a fait faillite."</p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    Cédric Robinson
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/portrait-profil-magnifique-beau-jeune-homme-traits-parfaits-poils-cheveux-rougeatres-posant-au-mur-fond-blanc-cavalier-regardant-expression-faciale-reveuse_343059-2574.jpg?w=1380&t=st=1667486173~exp=1667486773~hmac=cf3d611d400ddd5dda13bf597713f29bbcf5a62e56fe30fc079b4296df446dde"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">PDG de Jekyll</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="border-radius: 20px">
+              <div class="card-body">
+                <p class="p-2">
+                  "Logiciel rapide et intuitif, la prise en main s'est effectuée rapidement !"
+                </p>
+
+                <hr class="bg-muted border-2 border-top border-muted">
+
+                <div class="p-2 mt-2">
+                  <h5>
+                    Charly Meira
+                    <img class="float-end rounded-circle"
+                      src="https://img.freepik.com/photos-gratuite/cheerful-indian-businessman-smiling-portrait-gros-plan-pour-emploi-campagne-carriere_53876-129417.jpg?w=1380&t=st=1667485535~exp=1667486135~hmac=e11726af67561ab7915d8a3d09a99b2669430ceaf50370951405e7c4a186f6bb"
+                      width="56" height="56" alt="photo de profil">
+                  </h5>
+
+                  <p class="text-muted">Directeur chez AridRoo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tarifications -->
+    <section id="pricing" aria-label="Tarifications" class="bg-dark text-white"
+      style="padding-top: 128px; padding-bottom: 128px">
+      <div class="container">
+        <div class="text-center">
+          <h2 style="font-size: 40px;">Tarification simple pour tout le monde.</h2>
+
+          <p class="text-white-50" style="font-size: 18px">
+            Peu importe la taille de votre entreprise, notre logiciel
+            s'adaptera à vous.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+          <div class="col">
+            <div class="card bg-dark" style="border-radius: 20px">
+              <div class="card-body">
+                <h2 class="card-title" style="font-size: 40px;">100 / mois €</h2>
+                <h5>Offre basique</h5>
+                <p class="text-white-50">
+                  Pour ceux qui sont indépendants et qui débutent.
+                </p>
+
+                <div class="btn btn-outline-primary w-100 my-4 rounded-pill">
+                  Souscrire
+                </div>
+
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Utilisateurs limités
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Correction de bugs illimitée
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins communautaires
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins basiques
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Mises à jour
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Sauvegardes
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Maintenance du serveur
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-primary" style="border-radius: 20px">
+              <div class="card-body">
+                <h2 class="card-title" style="font-size: 40px;">300 / mois €</h2>
+                <h5>Offre standard</h5>
+                <p>Parfait pour les petites / moyennes entreprises.</p>
+
+                <div class="btn btn-light w-100 my-4 rounded-pill">
+                  Souscrire
+                </div>
+
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Utilisateurs illimités
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Correction de bugs illimitée
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins communautaires
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins basiques
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins standards
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Mises à jour
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Sauvegardes
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Maintenance du serveur
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Service client
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-dark" style="border-radius: 20px">
+              <div class="card-body">
+                <h2 class="card-title" style="font-size: 40px;">1000 / mois €</h2>
+                <h5>Offre avancée</h5>
+                <p class="text-white-50">
+                  Pour toutes les grandes entreprises.
+                </p>
+
+                <div class="btn btn-outline-primary w-100 my-4 rounded-pill">
+                  Souscrire
+                </div>
+
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Utilisateurs illimités
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Correction de bugs illimitée
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins communautaires
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins basiques
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins standards
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Plugins avancés
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Mises à jour
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Sauvegardes
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Maintenance du serveur
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Service client
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-check-circle"></i>
+                  Dépannage à distance
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="pt-5">
+    <div class="container">
+      <div class="p-4 text-center">
+        <img src="/assets/logo.png" alt="logo prydev">
+
+        <!-- Liens rapides -->
+        <nav class="nav d-flex justify-content-center mt-3" style="font-size: 14px" aria-label="Liens rapides">
+          <a class="nav-link text-muted" href="#features">Fonctionnalités</a>
+          <a class="nav-link text-muted" href="#testimonials">Témoignages</a>
+          <a class="nav-link text-muted" href="#pricing">Tarifications</a>
+        </nav>
+      </div>
+
+      <hr class="bg-muted border-2 border-top border-muted">
+
+      <!-- Copyright & Réseaux sociaux -->
+      <div class="row py-4">
+        <div class="col-8">
+          <p class="text-secondary" style="font-size: 14px">
+            Copyright © 2022 PRYDEV
+          </p>
+        </div>
+
+        <div class="col-4">
+          <a class="float-end text-secondary fs-5" aria-label="PRYDEV sur Twitter" href="https://twitter.com/">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a class="float-end me-2 text-secondary fs-5" aria-label="PRYDEV sur Facebook"
+            href="https://fr-fr.facebook.com/">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a class="float-end me-2 text-secondary fs-5" aria-label="PRYDEV sur GitHub"
+            href="https://github.com/vongsavanth-parry">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
